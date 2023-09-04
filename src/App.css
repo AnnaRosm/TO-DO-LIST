@@ -1,0 +1,69 @@
+body{
+  background: linear-gradient(to bottom right, #78C1F3, #9BE8D8);
+  min-height: 100vh;
+}
+.App{
+  background-color: #F8FDCF;
+  width: 300px;
+  margin: 40px auto;
+  min-height: 70vh;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+.crossed {
+-webkit-text-decoration-line: line-through;
+
+-webkit-text-decoration-color: #EF6262;
+
+-webkit-text-decoration-thickness: 2px;
+
+text-decoration: line-through 2px #EF6262;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+input{
+  
+  padding: 8px;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+ul, li{
+  list-style-type: none;
+  flex: 0.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.add{
+  margin-top: 5px;
+  flex: 0.5;
+  padding: 8px;
+  border: none;
+  background-color: #CBFFA9;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.delete{
+  margin-top: 5px;
+  flex: 0.5;
+  padding: 8px;
+  border: none;
+  background-color: #FF9B9B;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.pencil{
+  margin-top: 35px;
+  margin-bottom: 41px;
+  
+}
+.header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color:#194f82;
+  margin-top: 41px;
+  text-align: center
+}
